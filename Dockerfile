@@ -1,10 +1,10 @@
 From centos:7
-yum -y install wget
-wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.pypip install alauda
-yum install -y python-devel libffi-devel openssl-devel
-pip install alauda
-pip install pyopenssl ndg-httpsclient pyasn1
+run yum -y install wget
+run wget https://bootstrap.pypa.io/get-pip.py
+run python get-pip.pypip install alauda
+run yum install -y python-devel libffi-devel openssl-devel
+run pip install alauda
+run pip install pyopenssl ndg-httpsclient pyasn1
 #EXPOSE 8000
 
 #COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
