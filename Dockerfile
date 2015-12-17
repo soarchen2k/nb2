@@ -1,5 +1,6 @@
 From centos:7
 run yum -y install wget
+run yum -y install gcc
 run wget https://bootstrap.pypa.io/get-pip.py
 run python get-pip.py
 run yum install -y python-devel libffi-devel openssl-devel
