@@ -5,8 +5,8 @@ run wget https://bootstrap.pypa.io/get-pip.py
 run python get-pip.py
 run yum install -y python-devel libffi-devel openssl-devel
 run pip install alauda
-run alauda -help
-cmd alauda wget
+run pip show
+cmd sh alauda wget
 #run pip install pyopenssl ndg-httpsclient pyasn1
 #EXPOSE 8000
 
