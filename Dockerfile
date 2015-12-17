@@ -1,7 +1,8 @@
 From centos:7
 run yum -y install wget
 run wget https://bootstrap.pypa.io/get-pip.py
-run python get-pip.pypip install alauda
+run python get-pip.py
+run pip install alauda
 run yum install -y python-devel libffi-devel openssl-devel
 run pip install alauda
 run pip install pyopenssl ndg-httpsclient pyasn1
